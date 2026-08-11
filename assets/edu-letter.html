@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[Client] Employee Letter — Custom Insole Benefit</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #EEF1F5; font-family: system-ui, sans-serif; }
+  .navbar { position: sticky; top: 0; z-index: 999; background: #001342; color: #fff; padding: 10px 20px; font-size: 14px; display: flex; align-items: center; justify-content: space-between; }
+  .navbar a { color: #fff; text-decoration: none; }
+  .navbar .dl { color: #fff; text-decoration: none; border: 1px solid rgba(255,255,255,0.4); padding: 6px 12px; border-radius: 6px; font-size: 13px; }
+  .navbar .dl:hover { background: rgba(255,255,255,0.1); }
+  .viewer-wrap { height: calc(100vh - 44px); display: flex; justify-content: center; padding: 20px; }
+  embed { width: 100%; max-width: 900px; height: 100%; border: none; box-shadow: 0 10px 40px rgba(0,0,0,0.15); background: #fff; }
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">&larr; Back to Lookbook</a>
+  <a class="dl" href="assets/edu-letter.pdf?v=5" download>Download PDF</a>
+</div>
+<div class="viewer-wrap">
+  <embed src="assets/edu-letter.pdf?v=5" type="application/pdf">
+</div>
+</body></html>
